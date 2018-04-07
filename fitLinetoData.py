@@ -6,9 +6,6 @@ from scipy.stats import linregress
 
 import matplotlib.pyplot as plt
 
-from astroML.plotting import setup_text_plots
-setup_text_plots(fontsize = 20, usetex = True)
-
 #----------
 
 # obtain data and fit it using linear regression
